@@ -7,6 +7,7 @@ import (
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p/core/metrics"
 	quic "github.com/libp2p/go-libp2p/p2p/transport/quic"
+	scionquic "github.com/libp2p/go-libp2p/p2p/transport/scionquic"
 	"github.com/libp2p/go-libp2p/p2p/transport/tcp"
 	webrtc "github.com/libp2p/go-libp2p/p2p/transport/webrtc"
 	"github.com/libp2p/go-libp2p/p2p/transport/websocket"
@@ -39,6 +40,10 @@ func Transports(tptConfig config.Transports) interface{} {
 				)
 			}
 			opts.Opts = append(opts.Opts, libp2p.Transport(quic.NewTransport))
+		}
+
+		if tptConfig.Network.SCIONQUIC.WithDefault(false) {
+			opts.Opts = append(opts.Opts, libp2p.Transport(scionquic.NewTransport))
 		}
 
 		if tptConfig.Network.WebTransport.WithDefault(!privateNetworkEnabled) {

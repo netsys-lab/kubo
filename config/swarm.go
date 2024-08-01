@@ -79,6 +79,7 @@ type Transports struct {
 	Network struct {
 		// All default to on.
 		QUIC         Flag `json:",omitempty"`
+		SCIONQUIC    Flag `json:",omitempty"`
 		TCP          Flag `json:",omitempty"`
 		Websocket    Flag `json:",omitempty"`
 		Relay        Flag `json:",omitempty"`
