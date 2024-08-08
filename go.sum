@@ -664,8 +664,8 @@ github.com/neelance/astrewrite v0.0.0-20160511093645-99348263ae86/go.mod h1:kHJE
 github.com/neelance/sourcemap v0.0.0-20151028013722-8c68805598ab/go.mod h1:Qr6/a/Q4r9LP1IltGz7tA7iOK1WonHEYhu1HRBA7ZiM=
 github.com/netsys-lab/boxo v0.21.1-0.20240801151653-03d9d8df516b h1:qZQGSup4aWEFfYpF52D58tpHBUCCznxCD6HL/9U7NUk=
 github.com/netsys-lab/boxo v0.21.1-0.20240801151653-03d9d8df516b/go.mod h1:zfF+gZj/zuIG7+DfV4sODNJoJ2O375LrVf28iB8ChCw=
-github.com/netsys-lab/go-libp2p v0.35.1-0.20240801150810-211ddf120a83 h1:N+UQPXZ2OIxtaf7iJYfawOVj0ixwPQ8EsR1+uLS8ZfU=
-github.com/netsys-lab/go-libp2p v0.35.1-0.20240801150810-211ddf120a83/go.mod h1:bjsJwTdssgj/H+SOc2ScLSunHYfajc+Cc26psrAGYnw=
+github.com/netsys-lab/go-libp2p v0.35.1-0.20240808155555-d48ce2427f64 h1:1kZCN8Yl8M2rlZufwUg8om/n1pXCdjpG7VGVY/+PMFM=
+github.com/netsys-lab/go-libp2p v0.35.1-0.20240808155555-d48ce2427f64/go.mod h1:bjsJwTdssgj/H+SOc2ScLSunHYfajc+Cc26psrAGYnw=
 github.com/netsys-lab/go-multiaddr v0.13.1-0.20240711155057-fd0289944ac0 h1:AmQbEK54fHDXQwxnK5Vpw1WyS4jIZakfpo5RITyNlZE=
 github.com/netsys-lab/go-multiaddr v0.13.1-0.20240711155057-fd0289944ac0/go.mod h1:sBXrNzucqkFJhvKOiwwLyqamGa/P5EIXNPLovyhQCII=
 github.com/nxadm/tail v1.4.4/go.mod h1:kenIhsEOeOJmVchQTgglprH7qJGnHDVpk1VPCcaMI8A=
