@@ -3,6 +3,7 @@ package commands
 import (
 	"fmt"
 	"io"
+	"math/big"
 
 	cmdenv "github.com/ipfs/kubo/core/commands/cmdenv"
 	e "github.com/ipfs/kubo/core/commands/e"
@@ -159,6 +160,26 @@ var bitswapStatCmd = &cmds.Command{
 			if verbose {
 				for _, p := range s.Peers {
 					fmt.Fprintf(w, "\t\t%s\n", p)
+				}
+			}
+
+			if verbose {
+				fmt.Fprintln(w, "\tblocks per path:")
+				for path, nblocks := range s.BlocksPerPath {
+					if human {
+						bigblocks := new(big.Int).SetUint64(nblocks)
+						fmt.Fprintf(w, "\t\t%s: %s\n", path, humanize.BigComma(bigblocks))
+					} else {
+						fmt.Fprintf(w, "\t\t%s: %d\n", path, nblocks)
+					}
+				}
+				fmt.Fprintln(w, "\tbytes per path:")
+				for path, nbytes := range s.BytesPerPath {
+					if human {
+						fmt.Fprintf(w, "\t\t%s: %s\n", path, humanize.Bytes(nbytes))
+					} else {
+						fmt.Fprintf(w, "\t\t%s: %d\n", path, nbytes)
+					}
 				}
 			}
 

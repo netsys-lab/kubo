@@ -276,6 +276,6 @@ replace github.com/multiformats/go-multiaddr => github.com/netsys-lab/go-multiad
 
 replace github.com/libp2p/go-libp2p => github.com/netsys-lab/go-libp2p v0.35.1-0.20240808155555-d48ce2427f64
 
-replace github.com/ipfs/boxo => github.com/netsys-lab/boxo v0.21.1-0.20240801151653-03d9d8df516b
+replace github.com/ipfs/boxo => github.com/netsys-lab/boxo v0.21.1-0.20240808171935-0a39b3d376af
 
 replace github.com/scionproto/scion => github.com/scionproto/scion v0.0.0-20240711160934-60b4932fc3e4
