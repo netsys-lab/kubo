@@ -181,6 +181,14 @@ var bitswapStatCmd = &cmds.Command{
 						fmt.Fprintf(w, "\t\t%s: %d\n", path, nbytes)
 					}
 				}
+				fmt.Fprintln(w, "\trate per path:")
+				for path, avgrate := range s.AverageRatePerPath {
+					if human {
+						fmt.Fprintf(w, "\t\t%s: %s kB/s\n", path, humanize.Ftoa(avgrate/1000))
+					} else {
+						fmt.Fprintf(w, "\t\t%s: %f\n", path, avgrate)
+					}
+				}
 			}
 
 			return nil
