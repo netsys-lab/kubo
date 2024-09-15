@@ -274,8 +274,8 @@ toolchain go1.21.12
 
 replace github.com/multiformats/go-multiaddr => github.com/netsys-lab/go-multiaddr v0.13.1-0.20240711155057-fd0289944ac0
 
-replace github.com/libp2p/go-libp2p => github.com/netsys-lab/go-libp2p v0.35.1-0.20240808155555-d48ce2427f64
+replace github.com/libp2p/go-libp2p => github.com/netsys-lab/go-libp2p v0.35.1-0.20240915153452-4a4bb0e8a292
 
-replace github.com/ipfs/boxo => github.com/netsys-lab/boxo v0.21.1-0.20240912144051-373538f72bf0
+replace github.com/ipfs/boxo => github.com/netsys-lab/boxo v0.21.1-0.20240915153856-4a6b750e666c
 
 replace github.com/scionproto/scion => github.com/scionproto/scion v0.0.0-20240711160934-60b4932fc3e4
