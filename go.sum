@@ -662,8 +662,8 @@ github.com/ncruces/go-strftime v0.1.9 h1:bY0MQC28UADQmHmaF5dgpLmImcShSi2kHU9XLdh
 github.com/ncruces/go-strftime v0.1.9/go.mod h1:Fwc5htZGVVkseilnfgOVb9mKy6w1naJmn9CehxcKcls=
 github.com/neelance/astrewrite v0.0.0-20160511093645-99348263ae86/go.mod h1:kHJEU3ofeGjhHklVoIGuVj85JJwZ6kWPaJwCIxgnFmo=
 github.com/neelance/sourcemap v0.0.0-20151028013722-8c68805598ab/go.mod h1:Qr6/a/Q4r9LP1IltGz7tA7iOK1WonHEYhu1HRBA7ZiM=
-github.com/netsys-lab/boxo v0.21.1-0.20240918191416-a0f3c030b997 h1:nKO4Jy28c3AmhWSbIko/9R0QtmVREdIxd6f3hMtrEaQ=
-github.com/netsys-lab/boxo v0.21.1-0.20240918191416-a0f3c030b997/go.mod h1:AC36nexJYv/lMjVz/13ArQ9PrGOkH0bdLrhsMZSGMTM=
+github.com/netsys-lab/boxo v0.21.1-0.20241013151922-48ad7b24e914 h1:ArrhQhLwa1eC1DwMAFqEzBRPCbe1w121y9TIipvXfs8=
+github.com/netsys-lab/boxo v0.21.1-0.20241013151922-48ad7b24e914/go.mod h1:AC36nexJYv/lMjVz/13ArQ9PrGOkH0bdLrhsMZSGMTM=
 github.com/netsys-lab/go-libp2p v0.35.1-0.20240918194810-45a4e6f230d6 h1:Xvuqhi/TR2uCvFaJNceVfMuNEn5UdKV1Ujphd+7RQ74=
 github.com/netsys-lab/go-libp2p v0.35.1-0.20240918194810-45a4e6f230d6/go.mod h1:bjsJwTdssgj/H+SOc2ScLSunHYfajc+Cc26psrAGYnw=
 github.com/netsys-lab/go-multiaddr v0.13.1-0.20240711155057-fd0289944ac0 h1:AmQbEK54fHDXQwxnK5Vpw1WyS4jIZakfpo5RITyNlZE=
