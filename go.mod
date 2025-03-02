@@ -268,9 +268,9 @@ require (
 	modernc.org/token v1.1.0 // indirect
 )
 
-go 1.21.10
+go 1.22.7
 
-toolchain go1.21.12
+toolchain go1.22.12
 
 replace github.com/multiformats/go-multiaddr => github.com/netsys-lab/go-multiaddr v0.13.1-0.20240711155057-fd0289944ac0
 
@@ -278,4 +278,4 @@ replace github.com/libp2p/go-libp2p => github.com/netsys-lab/go-libp2p v0.35.1-0
 
 replace github.com/ipfs/boxo => github.com/netsys-lab/boxo v0.21.1-0.20241201221304-4c011525b314
 
-replace github.com/scionproto/scion => github.com/scionproto/scion v0.0.0-20240711160934-60b4932fc3e4
+replace github.com/scionproto/scion => github.com/scionproto/scion v0.12.0
